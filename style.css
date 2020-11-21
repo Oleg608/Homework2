@@ -20,12 +20,12 @@ body {
 .image {
   width: 100px;
   height: 100px;
+  position: relative;
+  top: -50px;
 }
 .image img {
   width: inherit;
   height: inherit;
-  position: absolute;
-  top: 240px;
   margin-bottom: 20px;
   border-radius: 50%;
 }
