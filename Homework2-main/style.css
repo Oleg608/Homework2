@@ -1,39 +1,31 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(101, 51, 121);
 }
 .card {
-  margin-top: 100px;
-  margin-bottom: 100px;
   background-color: rgb(81, 37, 99);
   width: 400px;
+  margin-top: 10%;
   border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 10%;
 }
 .photo {
-  display: flex;
-  width: inherit;
-  justify-content: center;
-}
-.photo img {
-  padding: 3px;
   width: 100px;
   height: 100px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+}
+.photo img {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  padding: 3px;
   border: solid rgb(53, 139, 219) 1px;
 }
 .info {
-  width: inherit;
+  margin-top: 10%;
 }
 p {
   text-align: center;
@@ -44,18 +36,14 @@ h3 {
   color: rgb(216, 218, 218);
 }
 .buttons {
-  width: inherit;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-top: 10%;
+  width: 100px;
 }
 .buttons button {
   width: 100px;
   height: 40px;
   border-radius: 5px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 .messageButton button {
   background-color: rgb(71, 212, 212);
@@ -64,25 +52,20 @@ h3 {
 .followingButton button {
   border: solid 1px rgb(71, 212, 212);
   background-color: rgb(81, 37, 99);
-  color: rgb(216, 218, 218);
 }
 .skills {
-  width: inherit;
+  margin-top: 10%;
   background-color: rgb(65, 19, 83);
   border-radius: 0 0 15px 15px;
+  padding-bottom: 15px;
 }
 .skills p {
   text-align: left;
-  margin-left: 5px;
-  margin-top: 5px;
-}
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
 }
 li {
-  list-style: none;
+  display: inline-block;
   border: solid 1px rgb(216, 218, 218);
   text-align: center;
   margin: 5px;
